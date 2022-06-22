@@ -36,13 +36,38 @@ body {
 }
 
 .jumbotron {
-  background-image: asset-url('jumbo-copy.jpg');
+  text-align: center;
+  background-image: asset-url('chuck.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  color:white;
+  font-family: 'Helvetica Neue' !important;
   height: 400px;
+  font-stretch: expanded;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
 }
 
 .logout-button {
   margin-left: 5px;
+}
+
+.features {
+  ul {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
 }
